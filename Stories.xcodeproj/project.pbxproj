@@ -16,6 +16,8 @@
 		CAA6930B2426533300BDF3C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAA693092426533300BDF3C2 /* LaunchScreen.storyboard */; };
 		CAA693162426533400BDF3C2 /* StoriesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA693152426533400BDF3C2 /* StoriesTests.swift */; };
 		CAA693212426533400BDF3C2 /* StoriesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA693202426533400BDF3C2 /* StoriesUITests.swift */; };
+		CAA693392426755100BDF3C2 /* FullStori.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA693382426755100BDF3C2 /* FullStori.swift */; };
+		CAA6933B2426758D00BDF3C2 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA6933A2426758D00BDF3C2 /* CustomCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		CAA6931C2426533400BDF3C2 /* StoriesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StoriesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAA693202426533400BDF3C2 /* StoriesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoriesUITests.swift; sourceTree = "<group>"; };
 		CAA693222426533400BDF3C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAA693382426755100BDF3C2 /* FullStori.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullStori.swift; sourceTree = "<group>"; };
+		CAA6933A2426758D00BDF3C2 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,8 @@
 				CAA693092426533300BDF3C2 /* LaunchScreen.storyboard */,
 				CAA6930C2426533300BDF3C2 /* Info.plist */,
 				CAA693042426533100BDF3C2 /* Stories.xcdatamodeld */,
+				CAA693382426755100BDF3C2 /* FullStori.swift */,
+				CAA6933A2426758D00BDF3C2 /* CustomCell.swift */,
 			);
 			path = Stories;
 			sourceTree = "<group>";
@@ -266,6 +272,8 @@
 				CAA693062426533100BDF3C2 /* Stories.xcdatamodeld in Sources */,
 				CAA692FC2426533100BDF3C2 /* AppDelegate.swift in Sources */,
 				CAA692FE2426533100BDF3C2 /* SceneDelegate.swift in Sources */,
+				CAA6933B2426758D00BDF3C2 /* CustomCell.swift in Sources */,
+				CAA693392426755100BDF3C2 /* FullStori.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
